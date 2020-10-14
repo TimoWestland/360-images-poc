@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+.image-360-viewer {
+  cursor: grab;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.image-360-viewer:active {
+  cursor: grabbing;
+}
